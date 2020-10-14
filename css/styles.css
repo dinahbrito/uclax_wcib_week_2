@@ -9,7 +9,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  color: white; }
+  color: white;
+  background-color: darkolivegreen; }
 
 .videowrapper {
   text-align: center;
