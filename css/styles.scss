@@ -1,7 +1,27 @@
+header {
+
+}
+
 body {
 	font-family: sans-serif;
+	background-image: url("/images/phil-goodwin-Ys85uMksDHc-unsplash.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
 
 	img {
-		width: 100%;
+		width: 50%;
 	}
+
+
+
+.albuminfo {
+	border: 2px dotted white;
+	color: white;
+  text-align: left;
+  width: 90%;
+  margin: 2rem;
+  padding: 30px;
 }
