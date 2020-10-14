@@ -1,18 +1,53 @@
+header {
+  text-align: center;
+  border: 3px dotted white; }
+
 body {
   font-family: sans-serif;
   background-image: url("/images/phil-goodwin-Ys85uMksDHc-unsplash.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  color: white; }
+
+.videowrapper {
+  text-align: center;
+  color: white;
+  margin-top: 90px;
+  margin-bottom: 70px;
+  padding-bottom: 10px; }
+
+.videowrapper iframe {
+  border: none; }
 
 img {
   width: 50%; }
 
 .albuminfo {
-  border: 2px dotted white;
   color: white;
   text-align: left;
-  width: 90%;
-  margin: 2rem;
-  padding: 30px; }
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px; }
+
+.albuminfo img {
+  float: left;
+  margin-right: 50px;
+  margin-left: 50px;
+  width: 35%; }
+
+.albuminfo h2, p, ol {
+  margin-left: 15px;
+  margin-right: 90px;
+  display: block; }
+
+footer {
+  margin-top: 70px;
+  margin-bottom: 20px; }
+
+footer a {
+  color: white;
+  text-decoration: underline; }
